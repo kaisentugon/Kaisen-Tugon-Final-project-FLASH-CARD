@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Flashcard</title>
+</head>
+<body>
+    <h1>Edit Flashcard</h1>
+    <form method="post">
+        Question: <input type="text" name="question" value="{{ flashcard.question }}" required><br>
+        Answer: <input type="text" name="answer" value="{{ flashcard.answer }}" required><br>
+        <button type="submit">Save</button>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>
+    
